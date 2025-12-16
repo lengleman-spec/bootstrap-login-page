@@ -20,23 +20,27 @@
       <div
         class="row d-flex justify-content-center align-items-center min-vh-100">
         <!-- IMG Icon -->
-        <div class="col text-center">
-          <i class="fa-brands fa-bootstrap"></i>
-          <img src="" alt="" />
-          <h1>Please Sign In</h1>
+        <div
+          class="col d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-brands fa-bootstrap fs-1 mb-3"></i>
 
-          <label for="email"></label>
+          <h1 class="mb-4">Please Sign In</h1>
+
+          <label for="email" class="form-label"></label>
           <input
             type="text"
             name="email"
             id="email"
-            placeholder="Email address" />
-          <label for="password"></label>
+            placeholder="Email address"
+            class="form-control w-50" />
+
+          <label for="password" class="form-label"></label>
           <input
             type="text"
             name="password"
             id="password"
-            placeholder="Password" />
+            placeholder="Password"
+            class="form-control w-50" />
 
           <label for="remember-me">Remember Me</label>
           <input type="checkbox" id="remember-me" />
